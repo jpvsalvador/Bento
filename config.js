@@ -60,31 +60,31 @@ const CONFIG = {
 		{
 			id: '2',
 			name: 'ChatGPT',
-			icon: 'mail',
+			icon: 'bot-message-square',
 			link: 'https://mail.protonmail.com/',
 		},
 		{
 			id: '3',
 			name: 'Tech Crunch',
-			icon: 'trello',
+			icon: 'newspaper',
 			link: 'https://techcrunch.com/',
 		},
 		{
 			id: '4',
 			name: 'Medium',
-			icon: 'calendar',
+			icon: 'pen-line',
 			link: 'https://www.medium.com',
 		},
 		{
 			id: '5',
 			name: 'Discord',
-			icon: 'discord',
+			icon: 'message-circle-more',
 			link: 'https://www.discord.com/channels/@me',
 		},
 		{
 			id: '6',
 			name: 'Whatsapp',
-			icon: 'whatsapp',
+			icon: 'phone',
 			link: 'https://web.whatsapp.com/',
 		},
 	],
@@ -135,7 +135,7 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'google',
+			icon: 'cloud',
 			id: '1',
 			links: [
 				{
