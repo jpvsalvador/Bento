@@ -53,160 +53,63 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.discord.com/channels/@me',
+		},
+		{
+			id: '2',
+			name: 'Youtube Music',
+			icon: 'music',
+			link: 'https://web.whatsapp.com/',
+		},
+		{
+			id: '3',
+			name: 'Gmail',
+			icon: 'inbox',
+			link: 'https://www.discord.com/channels/@me',
+		},
+		{
+			id: '4',
+			name: 'Drive',
+			icon: 'cloud',
+			link: 'https://web.whatsapp.com/',
+		},
+		{
+			id: '5',
 			name: 'Github',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
 		{
-			id: '2',
+			id: '6',
 			name: 'ChatGPT',
 			icon: 'bot-message-square',
 			link: 'https://mail.protonmail.com/',
 		},
 		{
-			id: '3',
+			id: '7',
 			name: 'Tech Crunch',
 			icon: 'newspaper',
 			link: 'https://techcrunch.com/',
 		},
 		{
-			id: '4',
+			id: '8',
 			name: 'Medium',
 			icon: 'pen-line',
 			link: 'https://www.medium.com',
 		},
 		{
-			id: '5',
+			id: '9',
 			name: 'Discord',
 			icon: 'message-circle-more',
 			link: 'https://www.discord.com/channels/@me',
 		},
 		{
-			id: '6',
+			id: '10',
 			name: 'Whatsapp',
 			icon: 'phone',
 			link: 'https://web.whatsapp.com/',
-		},
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],
-
-	// ┬  ┬┌─┐┌┬┐┌─┐
-	// │  │└─┐ │ └─┐
-	// ┴─┘┴└─┘ ┴ └─┘
-
-	// First Links Container
-	firstlistsContainer: [
-		{
-			icon: 'cloud',
-			id: '1',
-			links: [
-				{
-					name: 'Youtube',
-					link: 'https://www.youtube.com',
-				},
-				{
-					name: 'Youtube Music',
-					link: 'https://www.music.youtube.com',
-				},
-				{
-					name: 'Gmail',
-					link: 'https://mail.google.com',
-				},
-				{
-					name: 'Drive',
-					link: 'https://drive.google.com',
-				},
-				{
-					name: 'Photos',
-					link: 'https://photos.google.com',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
-				},
-			],
 		},
 	],
 };
