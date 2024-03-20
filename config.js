@@ -11,14 +11,9 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Salvador',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
-
-	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
 
 	// Autochange
 	autoChangeTheme: false,
@@ -40,25 +35,25 @@ const CONFIG = {
 			id: '1',
 			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://www.discord.com/channels/@me',
+			link: 'https://youtube.com',
 		},
 		{
 			id: '2',
 			name: 'Youtube Music',
 			icon: 'music',
-			link: 'https://web.whatsapp.com/',
+			link: 'https://music.youtube.com',
 		},
 		{
 			id: '3',
 			name: 'Gmail',
 			icon: 'inbox',
-			link: 'https://www.discord.com/channels/@me',
+			link: 'https://mail.google.com',
 		},
 		{
 			id: '4',
 			name: 'Drive',
 			icon: 'cloud',
-			link: 'https://web.whatsapp.com/',
+			link: 'https://drive.google.com',
 		},
 		{
 			id: '5',
@@ -70,7 +65,7 @@ const CONFIG = {
 			id: '6',
 			name: 'ChatGPT',
 			icon: 'bot-message-square',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://chat.openai.com',
 		},
 		{
 			id: '7',
