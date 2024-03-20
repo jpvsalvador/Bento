@@ -12,3 +12,7 @@ const generateLayout = () => {
 };
 
 generateLayout();
+
+window.onload = function () {
+	document.getElementById('searchInput').focus();
+};

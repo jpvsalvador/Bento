@@ -2,12 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Bento</title>
-		<link
-			rel=" shortcut icon"
-			type="image/png"
-			href="assets/icons/favicon.png"
-		/>
+		<title>New Tab</title>
 		<link rel="stylesheet" href="app.css" />
 		<script src="https://unpkg.com/lucide@latest"></script>
 	</head>
@@ -34,7 +29,18 @@
 				<div id="quote"></div>
 			</div>
 
-			<div class="linksBlock" id="linksBlock"></div>
+			<div class="linksBlock" id="linksBlock">
+					<form id="searchForm">
+						<i id="searchIcon" class="buttonIcon" icon-name="search"></i>
+						<input
+							id="searchInput"
+							type="text"
+							class="search"
+							placeholder="Search"
+						/>
+					</form>
+				</form>
+			</div>
 		</div>
 
 		<!-- Config  -->
@@ -45,6 +51,7 @@
 		<script src="assets/js/theme.js"></script>
 		<script src="assets/js/time.js"></script>
 		<script src="assets/js/quotes.js"></script>
+		<script src="assets/js/search.js"></script>
 
 		<!-- Generators  -->
 		<script src="assets/js/buttons.js"></script>
