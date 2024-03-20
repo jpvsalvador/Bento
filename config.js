@@ -15,6 +15,13 @@ const CONFIG = {
 	openInNewTab: false,
 	twelveHourFormat: false,
 
+	// Quotes
+	quotes: [
+		'Becoming more like Batman.',
+		"I don't stop when I'm tired, I stop when I'm done.",
+		"You weren't winning, I was just losing.",
+	],
+
 	// Autochange
 	autoChangeTheme: false,
 
@@ -30,7 +37,7 @@ const CONFIG = {
 	// ├┴┐│ │ │  │ │ ││││└─┐
 	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
 
-	firstButtonsContainer: [
+	buttonsContainer: [
 		{
 			id: '1',
 			name: 'Youtube',

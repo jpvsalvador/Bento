@@ -4,7 +4,7 @@
 // Function to print Button Cards.
 
 const generateButtonsContainer = () => {
-	for (const button of CONFIG.firstButtonsContainer) {
+	for (const button of CONFIG.buttonsContainer) {
 		let item = `
         <a
           href="${button.link}"
